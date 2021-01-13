@@ -1,0 +1,15 @@
+.Header {
+    position: sticky;
+    background: coral;
+    padding: 0 20px;
+}
+
+.HeaderLink {
+    color: #fff;
+    padding: 20px 10px;
+    display: inline-block;
+}
+
+.HeaderLink:hover {
+    background-color: lightcoral;
+}

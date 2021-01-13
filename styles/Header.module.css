@@ -1,5 +1,7 @@
 .Header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    top: 0;
     background: coral;
     padding: 0 20px;
 }

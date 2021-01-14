@@ -1,30 +1,54 @@
 import React from 'react';
+
 import styles from '../styles/Home.module.css'
 
 const MainPage: React.FC = () => {
-  return <main className={styles.MainPage}>
-    <h1 className={styles.MainPageTitle}>For a More Creative Brain Follow These 5 Steps</h1>
-    <p className={styles.MainPageParagraph}>
-      Nearly all great ideas follow a similar creative process and this article explains how this process works. Understanding this is important because creative thinking is one of the most useful skills you can possess. Nearly every problem you face in work and in life can benefit from innovative solutions, lateral thinking, and creative ideas.
-    </p>
-    <p>
-      Anyone can learn to be creative by using these five steps. That's not to say being creative is easy. Uncovering your creative genius requires courage and tons of practice. However, this five-step approach should help demystify the creative process and illuminate the path to more innovative thinking.
-    </p>
-    <p>
-      To explain how this process works, let me tell you a short story.
-    </p>
-    <h2>A Problem in Need of a Creative Solution</h2>
-    <p>
-      In the 1870s, newspapers and printers faced a very specific and very costly problem. Photography was a new and exciting medium at the time. Readers wanted to see more pictures, but nobody could figure out how to print images quickly and cheaply.
-    </p>
-    <p>
-      For example, if a newspaper wanted to print an image in the 1870s, they had to commission an engraver to etch a copy of the photograph onto a steel plate by hand. These plates were used to press the image onto the page, but they often broke after just a few uses. This process of photoengraving, you can imagine, was remarkably time consuming and expensive.
-    </p>
-    <p>
-      The man who invented a solution to this problem was named Frederic Eugene Ives. He went on to become a trailblazer in the field of photography and held over 70 patents by the end of his career. His story of creativity and innovation, which I will share now, is a useful case study for understanding the 5 key steps of the creative process.
-    </p>
-    <img src="https://jamesclear.com/wp-content/uploads/2016/07/halftone-printing-process.jpg" alt="Tram" />
-  </main>;
-}
+  return (
+    <main className={styles.MainPage}>
+      <h1 className={styles.MainPageTitle}>WCAG 2.0 CheckLists</h1>
+      <h2>LEVEL A</h2>
+      <h3>1.1.1 – Non-text Content (B)</h3>
+      <h3>1.2.1 – Audio-only and Video-only (Pre-recorded) (ZH)</h3>
+      <h3>1.2.2 – Captions (Pre-recorded) (A)</h3>
+      <h3>1.2.3 – Audio Description or Media Alternative (Pre-recorded) (B)</h3>
+      <h3>1.3.1 – Info and Relationships (ZH)</h3>
+      <h3>1.3.2 – Meaningful Sequence (A)</h3>
+      <h3>1.3.3 – Sensory Characteristics (B)</h3>
+      <h3>1.4.1 – Use of Colour (ZH)</h3>
+      <h3>1.4.2 – Audio Control (A)</h3>
+      <h3>2.1.1 – Keyboard (B)</h3>
+      <h3>2.1.2 – No Keyboard Trap (ZH)</h3>
+      <h3>2.2.1 – Timing Adjustable (A)</h3>
+      <h3>2.2.2 – Pause, Stop, Hide (B)</h3>
+      <h3>2.3.1 – Three Flashes or Below (ZH)</h3>
+      <h3>2.4.1 – Bypass Blocks (A)</h3>
+      <h3>2.4.2 – Page Titled (B)</h3>
+      <h3>2.4.3 – Focus Order (ZH)</h3>
+      <h3>2.4.4 – Link Purpose (In Context) (A)</h3>
+      <h3>3.1.1 – Language of Page (B)</h3>
+      <h3>3.2.1 – On Focus (ZH)</h3>
+      <h3>3.2.2 – On Input (A)</h3>
+      <h3>3.3.1 – Error Identification (B)</h3>
+      <h3>3.3.2 – Labels or Instructions (ZH)</h3>
+      <h3>4.1.1 – Parsing (A)</h3>
+      <h3>4.1.2 – Name, Role, Value (B)</h3>
+      <h2>LEVEL AA</h2>
+      <h3>1.2.4 – Captions (Live) (A)</h3>
+      <h3>1.2.5 – Audio Description (Pre-recorded) (B)</h3>
+      <h3>1.4.3 – Contrast (Minimum) (ZH)</h3>
+      <h3>1.4.4 – Resize Text (A)</h3>
+      <h3>1.4.5 – Images of Text (B)</h3>
+      <h3>2.4.5 – Multiple Ways (ZH)</h3>
+      <h3>2.4.6 – Headings and Labels (A)</h3>
+      <h3>2.4.7 – Focus Visible (B)</h3>
+      <h3>3.1.2 – Language of Parts (ZH)</h3>
+      <h3>3.2.3 – Consistent Navigation (A)</h3>
+      <h3>3.2.4 – Consistent Identification (B)</h3>
+      <h3>3.3.3 – Error Suggestion (ZH)</h3>
+      <h3>3.3.4 - Error Prevention (Legal, Financial, Data) (A)</h3>
+      <h2>LEVEL AAA</h2>
+    </main>
+  );
+};
 
 export default MainPage;

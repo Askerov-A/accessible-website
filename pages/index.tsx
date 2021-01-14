@@ -32,6 +32,7 @@ const MainPage: React.FC = () => {
       <h3>3.3.2 – Labels or Instructions (ZH)</h3>
       <h3>4.1.1 – Parsing (A)</h3>
       <h3>4.1.2 – Name, Role, Value (B)</h3>
+      <hr />
       <h2>LEVEL AA</h2>
       <h3>1.2.4 – Captions (Live) (A)</h3>
       <h3>1.2.5 – Audio Description (Pre-recorded) (B)</h3>
@@ -46,6 +47,7 @@ const MainPage: React.FC = () => {
       <h3>3.2.4 – Consistent Identification (B)</h3>
       <h3>3.3.3 – Error Suggestion (ZH)</h3>
       <h3>3.3.4 - Error Prevention (Legal, Financial, Data) (A)</h3>
+      <hr />
       <h2>LEVEL AAA</h2>
     </main>
   );

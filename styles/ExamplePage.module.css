@@ -1,0 +1,132 @@
+.ExamplePage {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.Article {
+  margin-bottom: 70px;
+}
+.Title {
+  text-align: center;
+}
+.TextExample {
+  background: #326ba8;
+  display: inline-block;
+  padding: 20px;
+}
+.TextExample__Bad {
+  color: #5590cf;
+}
+.TextExample__Good {
+  color: #fff;
+}
+.Content {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: initial;
+}
+.Menu {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  max-width: 200px;
+  margin-right: 20px;
+}
+.MouseEventBtn {
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.MouseEventBtn__Over {
+  border: 2px red solid;
+}
+.MouseEventBtn__Click {
+  border: 2px green solid;
+}
+@keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 0;
+  }
+
+  35% {
+    opacity: 1;
+    background: #7fff00;
+  }
+
+  65% {
+    opacity: 1;
+    background: #0091ea;
+  }
+}
+@keyframes flashGood {
+  0%,
+  50%,
+  100% {
+    opacity: 0.5;
+  }
+  65% {
+    opacity: 1;
+  }
+}
+
+.FashBtn {
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  background: rgb(231, 155, 127);
+}
+
+.FashBtn__Bad {
+  animation: flash 1s linear infinite;
+}
+.FashBtn__Good {
+  animation: flashGood 1s linear infinite;
+}
+.Dropdown {
+  position: relative;
+  display: inline-block;
+}
+.DropdownBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.DropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.DropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.DropdownContent a:hover {
+  background-color: #f1f1f1;
+}
+.Dropdown:hover .DropdownContent,
+.DropdownHover .DropdownContent {
+  display: block;
+}
+.Dropdown:hover .DropdownBtn,
+.DropdownHover .DropdownBtn {
+  background-color: #3e8e41;
+}
+
+.LangLink[hreflang]:after {
+  color: #999;
+  vertical-align: super;
+  font-size: 70%;
+}
+.LangLink[hreflang="en"]:after {
+  content: " [English]";
+}

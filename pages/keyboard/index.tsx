@@ -37,7 +37,7 @@ const KeyboardPage: React.FC = () => {
         onBlur={onMenuOut}
         tabIndex={0} // You may need to use tabindex="0" to ensure an element can receive keyboard focus
       >
-        <img id="menu" src="#" alt="Menu" />
+        On Mouse Over Event
       </div>
       <div>
         <img

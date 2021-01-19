@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.lSection {
+  flex: 1 0 25%;
+}
+
+.rSection {
+  flex: 1 0 75%;
+}

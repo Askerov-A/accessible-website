@@ -21,10 +21,13 @@ const Header: React.FC<IHeaderProps> = () => {
   return (
     <header className={styles.Header}>
       <nav>
-        <HeaderLink href="#">Main Page</HeaderLink>
+        <HeaderLink href="/">Main Page</HeaderLink>
         <HeaderLink href="#">Second Page</HeaderLink>
         <HeaderLink href="#">Third Page</HeaderLink>
         <HeaderLink href="#">Fourth Page</HeaderLink>
+        <HeaderLink href="/my">
+          <a>My tasks</a>
+        </HeaderLink>
       </nav>
     </header>
   );
